@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Placement Portal</title>
+    
+    
+            <link rel="stylesheet" href="css/style.css">
+
+        
+    
+  </head>
+
+  <body>
+
+    <html>
+  <head>
+    <meta charset="utf-8">
+    <title>SRM UNIVERSITY PLACEMENT PORTAL</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Vollkorn:700italic,400' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header>
+    
+      <a href="#" class="logo">
+        <strong>SRM UNIVERSITY</strong>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="index.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">REGISTER</a>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="b.html">B.TECH</a>
+      <a href="m.tech.html">M.TECH</a>
+      <a href="lateral_entry.html">LATERAL ENTRY</a>
+    </div>
+  </li>
+
+		 
+          <li><a href="login.html">Login</a></li>
+        </ul>      
+      </nav>
+      <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+    </header>
+    <section>
+      <h1>SRM UNIVERSITY PLACEMENT PORTAL</h1>
+      <p>PLACEMENT PORTAL HELPS THE STUDENTS TO SIGNUP AND FILL THEIR DETAILS IN THE FORM OF A RESUME. THESE DETAILS CAN BE FURTHER REVIEWED BY THE CONCERNED STAFF AND THE STAFF CAN PREPARE THE PLACEMENT LIST FOR COMPANY BASED ON THE STORED RECORDS.</p>
+
+    </section>
+	
+  </body>
+</html>
+             
+    
+    
+  </body>
+</html>
